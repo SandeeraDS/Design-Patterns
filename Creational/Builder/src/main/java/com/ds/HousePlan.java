@@ -1,11 +1,11 @@
 package com.ds;
 
 public interface  HousePlan {
-    public void setBasement(String basement);
+    void setBasement(String basement);
 
-    public void setStructure(String structure);
+    void setStructure(String structure);
 
-    public void setRoof(String roof);
+    void setRoof(String roof);
 
-    public void setInterior(String interior);
+    void setInterior(String interior);
 }
